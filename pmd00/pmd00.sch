@@ -1,0 +1,1090 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "NK_PMD00"
+Date "2021-02-13"
+Rev "3b"
+Comp "NKID00"
+Comment1 "NK_PortableMultifunctionalDevice00"
+Comment2 "Copyright © NKID00 2020-2021"
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1550 1800 0    50   3State ~ 0
+Key_Row_Left_1
+Text GLabel 1550 2250 0    50   3State ~ 0
+Key_Row_Left_2
+Text GLabel 1550 2700 0    50   3State ~ 0
+Key_Row_Left_3
+Text GLabel 1550 3150 0    50   3State ~ 0
+Key_Row_Left_4
+Text GLabel 4050 3450 0    50   3State ~ 0
+Key_Row_5D
+Text GLabel 6650 2250 2    50   3State ~ 0
+Key_Row_Right_1
+Text GLabel 6650 2700 2    50   3State ~ 0
+Key_Row_Right_2
+Text GLabel 6650 3150 2    50   3State ~ 0
+Key_Row_Right_3
+Text GLabel 1550 950  0    50   3State ~ 0
+Key_Column_1
+Text GLabel 1550 1050 0    50   3State ~ 0
+Key_Column_2
+Text GLabel 1550 1150 0    50   3State ~ 0
+Key_Column_3
+Text GLabel 1550 1250 0    50   3State ~ 0
+Key_Column_4
+Text GLabel 1550 1350 0    50   3State ~ 0
+Key_Column_5
+Text GLabel 10050 3800 2    50   3State ~ 0
+Key_Column_1
+Text GLabel 10050 3900 2    50   3State ~ 0
+Key_Column_2
+Text GLabel 10050 4100 2    50   3State ~ 0
+Key_Column_3
+Text GLabel 8250 5100 0    50   3State ~ 0
+Key_Column_5
+Text GLabel 8250 4600 0    50   3State ~ 0
+Key_Row_Left_1
+Text GLabel 10050 4800 2    50   3State ~ 0
+Key_Row_Left_2
+Text GLabel 10050 4700 2    50   3State ~ 0
+Key_Row_Left_3
+Text GLabel 10050 4900 2    50   3State ~ 0
+Key_Row_Left_4
+Text GLabel 10050 4200 2    50   3State ~ 0
+Key_Row_Right_1
+Text GLabel 10050 4300 2    50   3State ~ 0
+Key_Row_Right_2
+Text GLabel 10050 5200 2    50   3State ~ 0
+Key_Row_Right_3
+Text GLabel 8250 4200 0    50   3State ~ 0
+Key_Row_5D
+Text GLabel 5800 5800 2    50   Input ~ 0
+LCD_BLA
+$Comp
+L power:GND #PWR06
+U 1 1 5FADB4A7
+P 5200 6400
+F 0 "#PWR06" H 5200 6150 50  0001 C CNN
+F 1 "GND" H 5205 6227 50  0000 C CNN
+F 2 "" H 5200 6400 50  0001 C CNN
+F 3 "" H 5200 6400 50  0001 C CNN
+	1    5200 6400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3800 10050 3800
+Wire Wire Line
+	10050 3900 9950 3900
+Wire Wire Line
+	9950 4100 10050 4100
+Wire Wire Line
+	10050 4200 9950 4200
+Wire Wire Line
+	9950 4300 10050 4300
+Wire Wire Line
+	10050 4700 9950 4700
+Wire Wire Line
+	9950 4800 10050 4800
+Wire Wire Line
+	10050 4900 9950 4900
+Wire Wire Line
+	9950 5200 10050 5200
+NoConn ~ 9250 3100
+NoConn ~ 9350 3100
+$Comp
+L power:+5V #PWR01
+U 1 1 5FBD2984
+P 8950 3000
+F 0 "#PWR01" H 8950 2850 50  0001 C CNN
+F 1 "+5V" H 8965 3173 50  0000 C CNN
+F 2 "" H 8950 3000 50  0001 C CNN
+F 3 "" H 8950 3000 50  0001 C CNN
+	1    8950 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 5FBD3143
+P 5200 4400
+F 0 "#PWR02" H 5200 4250 50  0001 C CNN
+F 1 "+5V" H 5215 4573 50  0000 C CNN
+F 2 "" H 5200 4400 50  0001 C CNN
+F 3 "" H 5200 4400 50  0001 C CNN
+	1    5200 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 5000 4600 4500
+Wire Wire Line
+	4600 4500 5200 4500
+Connection ~ 5200 4500
+Wire Wire Line
+	5200 4400 5200 4500
+Text GLabel 4600 5100 0    50   Input ~ 0
+LCD_SID
+Text GLabel 4600 5200 0    50   Input ~ 0
+LCD_SCLK
+Text GLabel 8250 4700 0    50   Output ~ 0
+LCD_SID
+Text GLabel 8250 4800 0    50   Output ~ 0
+LCD_SCLK
+$Comp
+L power:GND #PWR04
+U 1 1 5FD92BEA
+P 8750 5800
+F 0 "#PWR04" H 8750 5550 50  0001 C CNN
+F 1 "GND" H 8755 5627 50  0000 C CNN
+F 2 "" H 8750 5800 50  0001 C CNN
+F 3 "" H 8750 5800 50  0001 C CNN
+	1    8750 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 5700 8750 5800
+NoConn ~ 8850 5700
+NoConn ~ 8950 5700
+NoConn ~ 9050 5700
+NoConn ~ 9150 5700
+NoConn ~ 9250 5700
+NoConn ~ 9350 5700
+NoConn ~ 9450 5700
+Wire Wire Line
+	8950 3000 8950 3100
+NoConn ~ 9050 3100
+NoConn ~ 8350 3500
+NoConn ~ 8350 3600
+NoConn ~ 8350 3800
+NoConn ~ 8350 4000
+NoConn ~ 9950 4600
+NoConn ~ 9950 4500
+NoConn ~ 9950 3500
+NoConn ~ 9950 3600
+Wire Wire Line
+	9950 5100 10050 5100
+Wire Wire Line
+	8250 3900 8350 3900
+Wire Wire Line
+	8350 4200 8250 4200
+Wire Wire Line
+	8250 4600 8350 4600
+Wire Wire Line
+	8350 4700 8250 4700
+Wire Wire Line
+	8250 4800 8350 4800
+Wire Wire Line
+	8250 5100 8350 5100
+Wire Wire Line
+	1550 1050 2150 1050
+Wire Wire Line
+	1550 950  1650 950 
+$Comp
+L Switch:SW_Push SW5
+U 1 1 5FC68B24
+P 3850 1700
+F 0 "SW5" H 3850 1985 50  0000 C CNN
+F 1 "SW_Key_0" H 3850 1894 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3850 1900 50  0001 C CNN
+F 3 "~" H 3850 1900 50  0001 C CNN
+	1    3850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW3
+U 1 1 5FC686BE
+P 2850 1700
+F 0 "SW3" H 2850 1985 50  0000 C CNN
+F 1 "SW_Key_3" H 2850 1894 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2850 1900 50  0001 C CNN
+F 3 "~" H 2850 1900 50  0001 C CNN
+	1    2850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW2
+U 1 1 5FC6827E
+P 2350 1700
+F 0 "SW2" H 2350 1985 50  0000 C CNN
+F 1 "SW_Key_2" H 2350 1894 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2350 1900 50  0001 C CNN
+F 3 "~" H 2350 1900 50  0001 C CNN
+	1    2350 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 5FC67D10
+P 1850 1700
+F 0 "SW1" H 1850 1985 50  0000 C CNN
+F 1 "SW_Key_1" H 1850 1894 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 1850 1900 50  0001 C CNN
+F 3 "~" H 1850 1900 50  0001 C CNN
+	1    1850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW10
+U 1 1 5FC77258
+P 3850 2150
+F 0 "SW10" H 3850 2435 50  0000 C CNN
+F 1 "SW_Key_T" H 3850 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3850 2350 50  0001 C CNN
+F 3 "~" H 3850 2350 50  0001 C CNN
+	1    3850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW9
+U 1 1 5FC7725E
+P 3350 2150
+F 0 "SW9" H 3350 2435 50  0000 C CNN
+F 1 "SW_Key_R" H 3350 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3350 2350 50  0001 C CNN
+F 3 "~" H 3350 2350 50  0001 C CNN
+	1    3350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW8
+U 1 1 5FC77264
+P 2850 2150
+F 0 "SW8" H 2850 2435 50  0000 C CNN
+F 1 "SW_Key_E" H 2850 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2850 2350 50  0001 C CNN
+F 3 "~" H 2850 2350 50  0001 C CNN
+	1    2850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW7
+U 1 1 5FC7726A
+P 2350 2150
+F 0 "SW7" H 2350 2435 50  0000 C CNN
+F 1 "SW_Key_W" H 2350 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2350 2350 50  0001 C CNN
+F 3 "~" H 2350 2350 50  0001 C CNN
+	1    2350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW6
+U 1 1 5FC77270
+P 1850 2150
+F 0 "SW6" H 1850 2435 50  0000 C CNN
+F 1 "SW_Key_Q" H 1850 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 1850 2350 50  0001 C CNN
+F 3 "~" H 1850 2350 50  0001 C CNN
+	1    1850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW20
+U 1 1 5FC7AE4C
+P 3850 2600
+F 0 "SW20" H 3850 2885 50  0000 C CNN
+F 1 "SW_Key_G" H 3850 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3850 2800 50  0001 C CNN
+F 3 "~" H 3850 2800 50  0001 C CNN
+	1    3850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW19
+U 1 1 5FC7AE52
+P 3350 2600
+F 0 "SW19" H 3350 2885 50  0000 C CNN
+F 1 "SW_Key_F" H 3350 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3350 2800 50  0001 C CNN
+F 3 "~" H 3350 2800 50  0001 C CNN
+	1    3350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW18
+U 1 1 5FC7AE58
+P 2850 2600
+F 0 "SW18" H 2850 2885 50  0000 C CNN
+F 1 "SW_Key_D" H 2850 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2850 2800 50  0001 C CNN
+F 3 "~" H 2850 2800 50  0001 C CNN
+	1    2850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW17
+U 1 1 5FC7AE5E
+P 2350 2600
+F 0 "SW17" H 2350 2885 50  0000 C CNN
+F 1 "SW_Key_S" H 2350 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2350 2800 50  0001 C CNN
+F 3 "~" H 2350 2800 50  0001 C CNN
+	1    2350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW16
+U 1 1 5FC7AE64
+P 1850 2600
+F 0 "SW16" H 1850 2885 50  0000 C CNN
+F 1 "SW_Key_A" H 1850 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 1850 2800 50  0001 C CNN
+F 3 "~" H 1850 2800 50  0001 C CNN
+	1    1850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW29
+U 1 1 5FC7E5A6
+P 3850 3050
+F 0 "SW29" H 3850 3335 50  0000 C CNN
+F 1 "SW_Key_B" H 3850 3244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3850 3250 50  0001 C CNN
+F 3 "~" H 3850 3250 50  0001 C CNN
+	1    3850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW28
+U 1 1 5FC7E5AC
+P 3350 3050
+F 0 "SW28" H 3350 3335 50  0000 C CNN
+F 1 "SW_Key_V" H 3350 3244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3350 3250 50  0001 C CNN
+F 3 "~" H 3350 3250 50  0001 C CNN
+	1    3350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW27
+U 1 1 5FC7E5B2
+P 2850 3050
+F 0 "SW27" H 2850 3335 50  0000 C CNN
+F 1 "SW_Key_C" H 2850 3244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2850 3250 50  0001 C CNN
+F 3 "~" H 2850 3250 50  0001 C CNN
+	1    2850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW26
+U 1 1 5FC7E5B8
+P 2350 3050
+F 0 "SW26" H 2350 3335 50  0000 C CNN
+F 1 "SW_Key_X" H 2350 3244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 2350 3250 50  0001 C CNN
+F 3 "~" H 2350 3250 50  0001 C CNN
+	1    2350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW25
+U 1 1 5FC7E5BE
+P 1850 3050
+F 0 "SW25" H 1850 3335 50  0000 C CNN
+F 1 "SW_Key_Z" H 1850 3244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 1850 3250 50  0001 C CNN
+F 3 "~" H 1850 3250 50  0001 C CNN
+	1    1850 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 1700
+Wire Wire Line
+	1650 1700 1650 2150
+Connection ~ 2150 1050
+Connection ~ 1650 950 
+Wire Wire Line
+	1650 950  1650 1700
+Wire Wire Line
+	1550 1800 2050 1800
+Wire Wire Line
+	3550 1700 3550 1800
+Wire Wire Line
+	3050 1700 3050 1800
+Wire Wire Line
+	2550 1700 2550 1800
+Wire Wire Line
+	2050 1700 2050 1800
+Connection ~ 1650 2150
+Connection ~ 1650 2600
+Wire Wire Line
+	1650 2600 1650 3050
+Wire Wire Line
+	1550 2700 2050 2700
+Wire Wire Line
+	3550 2600 3550 2700
+Wire Wire Line
+	3050 2600 3050 2700
+Wire Wire Line
+	2550 2600 2550 2700
+Wire Wire Line
+	2050 2600 2050 2700
+Connection ~ 2650 1150
+Wire Wire Line
+	1550 1150 2650 1150
+Connection ~ 3150 1250
+Wire Wire Line
+	2650 1150 2650 1700
+Wire Wire Line
+	1550 1250 3150 1250
+Connection ~ 3650 1350
+Wire Wire Line
+	3650 1350 4150 1350
+Wire Wire Line
+	3150 1250 3150 1700
+Wire Wire Line
+	1650 2150 1650 2600
+Wire Wire Line
+	1550 1350 3650 1350
+Wire Wire Line
+	2150 1050 2150 1700
+Connection ~ 2150 2150
+Connection ~ 2150 2600
+Connection ~ 2050 2700
+Connection ~ 2050 1800
+Connection ~ 2150 1700
+Wire Wire Line
+	2050 1800 2550 1800
+Wire Wire Line
+	2050 2700 2550 2700
+Wire Wire Line
+	4050 3150 4050 3050
+Wire Wire Line
+	1550 2250 2050 2250
+Connection ~ 2650 2150
+Connection ~ 2650 2600
+Connection ~ 2650 1700
+Connection ~ 3150 1700
+Connection ~ 3150 2150
+Connection ~ 3150 2600
+Connection ~ 3650 2150
+Connection ~ 3650 2600
+Wire Wire Line
+	3050 1800 3550 1800
+Wire Wire Line
+	2550 1800 3050 1800
+Connection ~ 2550 1800
+Connection ~ 3050 1800
+Wire Wire Line
+	3050 2150 3050 2250
+Connection ~ 3050 2250
+Wire Wire Line
+	3050 2250 3550 2250
+Wire Wire Line
+	2550 2150 2550 2250
+Connection ~ 2550 2250
+Wire Wire Line
+	2550 2250 3050 2250
+Wire Wire Line
+	2050 2150 2050 2250
+Connection ~ 2050 2250
+Wire Wire Line
+	2050 2250 2550 2250
+Wire Wire Line
+	3550 2150 3550 2250
+Connection ~ 3550 2250
+Wire Wire Line
+	4050 2250 4050 2150
+Wire Wire Line
+	3550 2250 4050 2250
+Wire Wire Line
+	4050 2700 4050 2600
+Wire Wire Line
+	2550 3050 2550 3150
+Connection ~ 2550 3150
+Wire Wire Line
+	2550 3150 3050 3150
+Wire Wire Line
+	2050 3050 2050 3150
+Wire Wire Line
+	1550 3150 2050 3150
+Connection ~ 2050 3150
+Wire Wire Line
+	2050 3150 2550 3150
+Wire Wire Line
+	3050 3050 3050 3150
+Connection ~ 3050 3150
+Wire Wire Line
+	3050 3150 3550 3150
+Wire Wire Line
+	3550 3050 3550 3150
+Connection ~ 3550 3150
+Wire Wire Line
+	3550 3150 4050 3150
+Connection ~ 2550 2700
+Wire Wire Line
+	2550 2700 3050 2700
+Wire Wire Line
+	3050 2700 3550 2700
+Connection ~ 3050 2700
+Wire Wire Line
+	3550 2700 4050 2700
+Connection ~ 3550 2700
+$Comp
+L Switch:SW_Push SW15
+U 1 1 5FDA7931
+P 6350 2150
+F 0 "SW15" H 6350 2435 50  0000 C CNN
+F 1 "SW_Key_P" H 6350 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 6350 2350 50  0001 C CNN
+F 3 "~" H 6350 2350 50  0001 C CNN
+	1    6350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW14
+U 1 1 5FDA7937
+P 5850 2150
+F 0 "SW14" H 5850 2435 50  0000 C CNN
+F 1 "SW_Key_O" H 5850 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 5850 2350 50  0001 C CNN
+F 3 "~" H 5850 2350 50  0001 C CNN
+	1    5850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW13
+U 1 1 5FDA793D
+P 5350 2150
+F 0 "SW13" H 5350 2435 50  0000 C CNN
+F 1 "SW_Key_I" H 5350 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 5350 2350 50  0001 C CNN
+F 3 "~" H 5350 2350 50  0001 C CNN
+	1    5350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW12
+U 1 1 5FDA7943
+P 4850 2150
+F 0 "SW12" H 4850 2435 50  0000 C CNN
+F 1 "SW_Key_U" H 4850 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 4850 2350 50  0001 C CNN
+F 3 "~" H 4850 2350 50  0001 C CNN
+	1    4850 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW11
+U 1 1 5FDA7949
+P 4350 2150
+F 0 "SW11" H 4350 2435 50  0000 C CNN
+F 1 "SW_Key_Y" H 4350 2344 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 4350 2350 50  0001 C CNN
+F 3 "~" H 4350 2350 50  0001 C CNN
+	1    4350 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW24
+U 1 1 5FDA7955
+P 5850 2600
+F 0 "SW24" H 5850 2885 50  0000 C CNN
+F 1 "SW_Key_L" H 5850 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 5850 2800 50  0001 C CNN
+F 3 "~" H 5850 2800 50  0001 C CNN
+	1    5850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW23
+U 1 1 5FDA795B
+P 5350 2600
+F 0 "SW23" H 5350 2885 50  0000 C CNN
+F 1 "SW_Key_K" H 5350 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 5350 2800 50  0001 C CNN
+F 3 "~" H 5350 2800 50  0001 C CNN
+	1    5350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW22
+U 1 1 5FDA7961
+P 4850 2600
+F 0 "SW22" H 4850 2885 50  0000 C CNN
+F 1 "SW_Key_J" H 4850 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 4850 2800 50  0001 C CNN
+F 3 "~" H 4850 2800 50  0001 C CNN
+	1    4850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW21
+U 1 1 5FDA7967
+P 4350 2600
+F 0 "SW21" H 4350 2885 50  0000 C CNN
+F 1 "SW_Key_H" H 4350 2794 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 4350 2800 50  0001 C CNN
+F 3 "~" H 4350 2800 50  0001 C CNN
+	1    4350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW30
+U 1 1 5FDA7985
+P 4350 3050
+F 0 "SW30" H 4350 3335 50  0000 C CNN
+F 1 "SW_Key_N" H 4350 3244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 4350 3250 50  0001 C CNN
+F 3 "~" H 4350 3250 50  0001 C CNN
+	1    4350 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 4150 2150
+Connection ~ 4150 2600
+Wire Wire Line
+	6050 2600 6050 2700
+Wire Wire Line
+	5550 2600 5550 2700
+Wire Wire Line
+	5050 2600 5050 2700
+Wire Wire Line
+	4550 2600 4550 2700
+Connection ~ 4650 2600
+Wire Wire Line
+	4550 2700 5050 2700
+Wire Wire Line
+	5550 2150 5550 2250
+Connection ~ 5550 2250
+Wire Wire Line
+	5550 2250 6050 2250
+Wire Wire Line
+	5050 2150 5050 2250
+Connection ~ 5050 2250
+Wire Wire Line
+	5050 2250 5550 2250
+Wire Wire Line
+	4550 2150 4550 2250
+Wire Wire Line
+	4550 2250 5050 2250
+Wire Wire Line
+	6050 2150 6050 2250
+Connection ~ 6050 2250
+Wire Wire Line
+	6550 2250 6550 2150
+Wire Wire Line
+	6050 2250 6550 2250
+Wire Wire Line
+	5050 3050 5050 3150
+Connection ~ 5050 3150
+Wire Wire Line
+	4550 3050 4550 3150
+Wire Wire Line
+	4550 3150 5050 3150
+Connection ~ 5050 2700
+Wire Wire Line
+	5050 2700 5550 2700
+Wire Wire Line
+	5550 2700 6050 2700
+Connection ~ 5550 2700
+Connection ~ 6050 2700
+Wire Wire Line
+	3150 1250 4650 1250
+Wire Wire Line
+	2650 1150 5150 1150
+Wire Wire Line
+	2150 1050 5650 1050
+Wire Wire Line
+	1650 950  6150 950 
+Wire Wire Line
+	6550 2250 6650 2250
+Connection ~ 6550 2250
+Wire Wire Line
+	4150 2150 4150 2600
+Wire Wire Line
+	4150 2600 4150 3050
+Wire Wire Line
+	3650 2600 3650 3050
+Wire Wire Line
+	3150 2600 3150 3050
+Wire Wire Line
+	2650 2600 2650 3050
+Wire Wire Line
+	3650 2150 3650 2600
+Wire Wire Line
+	2150 2150 2150 2600
+Wire Wire Line
+	2650 2150 2650 2600
+Wire Wire Line
+	3150 2150 3150 2600
+Wire Wire Line
+	3150 1700 3150 2150
+Wire Wire Line
+	2650 1700 2650 2150
+Wire Wire Line
+	3650 1350 3650 1700
+Wire Wire Line
+	2150 1700 2150 2150
+Wire Wire Line
+	2150 2600 2150 3050
+Wire Wire Line
+	4150 1350 4150 2150
+$Comp
+L Switch:SW_Push SW31
+U 1 1 5FE01E19
+P 4850 3050
+F 0 "SW31" H 4850 3335 50  0000 C CNN
+F 1 "SW_Key_M" H 4850 3244 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 4850 3250 50  0001 C CNN
+F 3 "~" H 4850 3250 50  0001 C CNN
+	1    4850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2600 4650 3050
+Wire Wire Line
+	5650 2150 5650 2600
+Wire Wire Line
+	5150 2150 5150 2600
+Wire Wire Line
+	4650 2150 4650 2600
+Wire Wire Line
+	4650 1250 4650 2150
+Connection ~ 4650 2150
+Wire Wire Line
+	5150 1150 5150 2150
+Connection ~ 5150 2150
+Wire Wire Line
+	5650 1050 5650 2150
+Connection ~ 5650 2150
+Wire Wire Line
+	6150 950  6150 2150
+Wire Wire Line
+	6050 2700 6650 2700
+Wire Wire Line
+	5050 3150 6650 3150
+$Comp
+L Switch:SW_5D SW32
+U 1 1 5FE3840D
+P 5100 3600
+F 0 "SW32" H 5100 3950 50  0000 C CNN
+F 1 "SW_5D" H 5100 3850 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_5D" H 5025 3575 50  0001 C CNN
+F 3 "~" H 5025 3575 50  0001 C CNN
+	1    5100 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 3650 1700
+Wire Wire Line
+	3650 1700 3650 2150
+$Comp
+L Switch:SW_Push SW4
+U 1 1 5FE3A9AB
+P 3350 1700
+F 0 "SW4" H 3350 1985 50  0000 C CNN
+F 1 "SW_Key_4" H 3350 1894 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 3350 1900 50  0001 C CNN
+F 3 "~" H 3350 1900 50  0001 C CNN
+	1    3350 1700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 1700 4050 1800
+Wire Wire Line
+	4050 1800 3550 1800
+Connection ~ 3550 1800
+Wire Wire Line
+	5550 3050 5150 3050
+Wire Wire Line
+	5150 3050 5150 2600
+Connection ~ 5150 2600
+$Comp
+L Device:LED_RGBA D1
+U 1 1 5FEFC92E
+P 3400 4250
+F 0 "D1" H 3400 4747 50  0000 C CNN
+F 1 "LED_RGBA" H 3400 4656 50  0000 C CNN
+F 2 "LED_SMD:LED_RGB_P4mm" H 3400 4200 50  0001 C CNN
+F 3 "~" H 3400 4200 50  0001 C CNN
+	1    3400 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR03
+U 1 1 5FFC3819
+P 3700 4150
+F 0 "#PWR03" H 3700 4000 50  0001 C CNN
+F 1 "+5V" H 3715 4323 50  0000 C CNN
+F 2 "" H 3700 4150 50  0001 C CNN
+F 3 "" H 3700 4150 50  0001 C CNN
+	1    3700 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 4150 3700 4250
+Wire Wire Line
+	3700 4250 3600 4250
+$Comp
+L Connector_Generic:Conn_Power J3
+U 1 1 5FFCBDA1
+P 1700 5350
+F 0 "J3" H 1643 5033 50  0000 C CNN
+F 1 "Conn_Battery_In" H 1643 5124 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1700 5350 50  0001 C CNN
+F 3 "~" H 1700 5350 50  0001 C CNN
+	1    1700 5350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_Power J4
+U 1 1 6005C459
+P 3100 5350
+F 0 "J4" H 3043 5033 50  0000 C CNN
+F 1 "Conn_Battery_Out" H 3043 5124 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3100 5350 50  0001 C CNN
+F 3 "~" H 3100 5350 50  0001 C CNN
+	1    3100 5350
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2900 5250 1900 5250
+Text GLabel 2600 3950 0    50   Input ~ 0
+~LED_R~
+Text GLabel 2600 4550 0    50   Input ~ 0
+~LED_B~
+Wire Wire Line
+	3100 4450 3200 4450
+Text GLabel 2600 4250 0    50   Input ~ 0
+~LED_G~
+Text GLabel 8250 3900 0    50   3State ~ 0
+Key_Column_4
+Text GLabel 7550 5000 0    50   Output ~ 0
+~LED_R~
+Wire Wire Line
+	8350 5000 7550 5000
+Text GLabel 7550 4200 0    50   Output ~ 0
+~LED_G~
+Text GLabel 7550 4400 0    50   Output ~ 0
+~LED_B~
+Wire Wire Line
+	7550 4400 8350 4400
+Wire Wire Line
+	7550 4200 7650 4200
+Wire Wire Line
+	7650 4200 7650 4300
+Wire Wire Line
+	7650 4300 8350 4300
+NoConn ~ 5700 5100
+NoConn ~ 5700 5000
+NoConn ~ 5700 4900
+Wire Wire Line
+	4700 5200 4600 5200
+Wire Wire Line
+	4700 5100 4600 5100
+Wire Wire Line
+	4700 5000 4600 5000
+NoConn ~ 4700 4900
+Wire Wire Line
+	5200 4500 5200 4600
+NoConn ~ 4700 5600
+NoConn ~ 4700 5500
+NoConn ~ 5700 5500
+NoConn ~ 5700 5400
+NoConn ~ 5700 5300
+NoConn ~ 5700 5200
+Wire Wire Line
+	5700 5900 5800 5900
+NoConn ~ 4700 5400
+NoConn ~ 5700 5600
+$Comp
+L Display_Graphic:LCD12864 J2
+U 1 1 5FA8A66E
+P 5200 5400
+F 0 "J2" H 5350 6350 50  0000 C CNN
+F 1 "LCD12864" H 5500 6250 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical" H 5200 4500 50  0001 C CIN
+F 3 "" H 5400 5250 50  0001 C CNN
+	1    5200 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FCBC11A
+P 1450 4100
+F 0 "#FLG0101" H 1450 4175 50  0001 C CNN
+F 1 "PWR_FLAG" H 1450 4273 50  0000 C CNN
+F 2 "" H 1450 4100 50  0001 C CNN
+F 3 "~" H 1450 4100 50  0001 C CNN
+	1    1450 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FCBC548
+P 1800 4200
+F 0 "#FLG0102" H 1800 4275 50  0001 C CNN
+F 1 "PWR_FLAG" H 1800 4373 50  0000 C CNN
+F 2 "" H 1800 4200 50  0001 C CNN
+F 3 "~" H 1800 4200 50  0001 C CNN
+	1    1800 4200
+	1    0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0101
+U 1 1 5FCBC90C
+P 1450 4200
+F 0 "#PWR0101" H 1450 3950 50  0001 C CNN
+F 1 "GND" H 1455 4027 50  0000 C CNN
+F 2 "" H 1450 4200 50  0001 C CNN
+F 3 "" H 1450 4200 50  0001 C CNN
+	1    1450 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5FCBD811
+P 1800 4100
+F 0 "#PWR0102" H 1800 3950 50  0001 C CNN
+F 1 "+5V" H 1815 4273 50  0000 C CNN
+F 2 "" H 1800 4100 50  0001 C CNN
+F 3 "" H 1800 4100 50  0001 C CNN
+	1    1800 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4100 1800 4200
+Wire Wire Line
+	1450 4100 1450 4200
+$Comp
+L Device:R R2
+U 1 1 5FDA3D2B
+P 2850 4250
+F 0 "R2" V 2643 4250 50  0000 C CNN
+F 1 "220R" V 2734 4250 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 4250 50  0001 C CNN
+F 3 "~" H 2850 4250 50  0001 C CNN
+	1    2850 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 5FDA456E
+P 2850 3950
+F 0 "R1" V 2643 3950 50  0000 C CNN
+F 1 "220R" V 2734 3950 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 3950 50  0001 C CNN
+F 3 "~" H 2850 3950 50  0001 C CNN
+	1    2850 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5FDA46F0
+P 2850 4550
+F 0 "R3" V 2643 4550 50  0000 C CNN
+F 1 "220R" V 2734 4550 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2780 4550 50  0001 C CNN
+F 3 "~" H 2850 4550 50  0001 C CNN
+	1    2850 4550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2700 4550 2600 4550
+Wire Wire Line
+	2700 3950 2600 3950
+Wire Wire Line
+	2600 4250 2700 4250
+Wire Wire Line
+	3000 3950 3100 3950
+Wire Wire Line
+	3100 3950 3100 4050
+Wire Wire Line
+	3100 4050 3200 4050
+Wire Wire Line
+	3000 4550 3100 4550
+Wire Wire Line
+	3100 4550 3100 4450
+Wire Wire Line
+	3000 4250 3200 4250
+Wire Wire Line
+	4050 3450 4750 3450
+Wire Wire Line
+	4750 3750 4150 3750
+Wire Wire Line
+	4150 3750 4150 3050
+Connection ~ 4150 3050
+Wire Wire Line
+	4650 3050 4650 3550
+Wire Wire Line
+	4650 3550 4750 3550
+Connection ~ 4650 3050
+Wire Wire Line
+	6150 2150 6150 3550
+Wire Wire Line
+	6150 3550 5450 3550
+Connection ~ 6150 2150
+Wire Wire Line
+	5550 3050 5550 3750
+Wire Wire Line
+	5550 3750 5450 3750
+Wire Wire Line
+	5450 3450 5650 3450
+Wire Wire Line
+	5650 3450 5650 2600
+Connection ~ 5650 2600
+Wire Wire Line
+	1900 5350 2000 5350
+Wire Wire Line
+	2000 5350 2000 5600
+Wire Wire Line
+	2000 5600 2100 5600
+Wire Wire Line
+	2900 5350 2800 5350
+Wire Wire Line
+	2800 5350 2800 5600
+Wire Wire Line
+	2800 5600 2700 5600
+Wire Wire Line
+	2700 5700 3000 5700
+Wire Wire Line
+	1800 5700 2100 5700
+$Comp
+L Connector:Raspberry_Pi_2_3 J1
+U 1 1 5FBECF19
+P 9150 4400
+F 0 "J1" H 9550 5850 50  0000 C CNN
+F 1 "Raspberry_Pi_Zero" H 9850 5750 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x20_P2.54mm_Vertical" H 9150 4400 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 9150 4400 50  0001 C CNN
+	1    9150 4400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8350 4900
+Text GLabel 10050 5100 2    50   Output ~ 0
+LCD_BLA
+$Comp
+L power:GND #PWR?
+U 1 1 602C6720
+P 1800 5800
+F 0 "#PWR?" H 1800 5550 50  0001 C CNN
+F 1 "GND" H 1805 5627 50  0000 C CNN
+F 2 "" H 1800 5800 50  0001 C CNN
+F 3 "" H 1800 5800 50  0001 C CNN
+	1    1800 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 5700 1800 5800
+Text GLabel 3000 5700 2    50   Output ~ 0
+LCD_BLK
+Text GLabel 5800 5900 2    50   Input ~ 0
+LCD_BLK
+Wire Wire Line
+	5200 6200 5200 6400
+$Comp
+L Switch:SW_DIP_x02 SW33
+U 1 1 602EA4AE
+P 2400 5700
+F 0 "SW33" H 2400 6067 50  0000 C CNN
+F 1 "SW_DIP_x02" H 2400 5976 50  0000 C CNN
+F 2 "" H 2400 5700 50  0001 C CNN
+F 3 "~" H 2400 5700 50  0001 C CNN
+	1    2400 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 5800 5800 5800
+$EndSCHEMATC
